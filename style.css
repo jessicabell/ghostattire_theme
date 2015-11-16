@@ -2082,3 +2082,52 @@ video {
 		margin: 0 55px 0 0;
 	}
 }
+
+.home {
+	background-color: white;
+}
+
+.home .site {
+	margin: auto;
+	max-width: 1400px;
+	padding: 0 20px;
+}
+
+body .main-navigation {
+	background-color: white;
+	border-color: black;
+	border-style: solid;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+
+}
+
+body .main-navigation a {
+	color: black;
+	letter-spacing: 2.1px;
+	font-size: 12px;
+}
+
+body .nav-menu > li > a:after {
+	content: ""
+}
+
+body .site-info a {
+	content: ""
+}
+
+
+body .site-footer { background-color: white;}
+
+
+body .social-links ul a::before {
+	background: none;
+	color: black;
+}
+
+
+body .logged-in-as a { color: gray;}
+body .more-link { color: black; }
+body .form-submit .submit { background-color: gray; }
